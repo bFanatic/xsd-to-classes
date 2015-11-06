@@ -1,0 +1,2 @@
+All code generated using the XsdToClasses tool is generated as partial classes. This means each class is simple to extend by adding your own partial class.
+Right-clicking on the project, and choose “Add Class”. Name the class the same name as the schema file. This will ensure that the class file is “nested” as a child of the schema file (see figure 1 – Configuration.cs). Edit the generated class, removing and adding classes to this file as partial classes are necessary.
